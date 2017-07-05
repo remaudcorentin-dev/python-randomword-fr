@@ -22,3 +22,16 @@ for i in range(0, 5):
     print("# %s\n%s\n" % (result['word'], result['definition']))
 
 ```
+
+or simply :
+
+```python
+>>> from randomwordfr import RandomWordFr
+>>> print( RandomWordFr() )
+# Cistre
+Nom masculin.
+Du latin « cithara » qui donna « citre » puis devint « cistre » par
+confusion avec « sistre » (autre instrument de musique).
+Instrument de musique à cordes pincées, analogue à la mandoline et qui
+était en usage aux XVIème et XVIIème siècle.
+```
